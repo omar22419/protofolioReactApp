@@ -1,6 +1,5 @@
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Footer from "./Components/footer";
 import Navbar from "./Components/Navbar";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
@@ -38,12 +37,6 @@ export default function App() {
     <>
 
     <RouterProvider router={router}/>
-      {/* <Navbar />
-      <Home />
-      <About />
-      <Contact />
-      <Portfolio />
-      <Footer /> */}
     </>
   )
 }
