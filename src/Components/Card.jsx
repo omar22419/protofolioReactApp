@@ -1,7 +1,6 @@
 
-export default function Card(i) {
-  const {index}= i;
-
+export default function Card(s) {
+  const {src}=s;
 
   return (
     <>
@@ -11,7 +10,7 @@ export default function Card(i) {
       }>
         <div className="position-relative overflow-hidden">
           <img 
-            src={"src/assets/images/" + index + ".png"}
+            src={src}
             className="w-100 rounded-3 "
             alt=""
           />

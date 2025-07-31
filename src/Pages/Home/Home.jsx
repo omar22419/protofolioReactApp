@@ -1,5 +1,7 @@
 import React from "react";
 
+import homeImage from '../../assets/images/home_picture.png';
+
 export default function Home() {
   return (
     <>
@@ -7,7 +9,7 @@ export default function Home() {
         <div className="text-center">
           <img
             className="my-1 w-75"
-            src="src/assets/images/home_picture.png"
+            src={homeImage}
             alt=""
           />
           <h1 className="text-uppercase my-4">Start framework</h1>
